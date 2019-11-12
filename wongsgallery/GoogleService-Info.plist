@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>655214383109-30p0vgcthfo9frlibejudc9cj5kogv9e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.655214383109-30p0vgcthfo9frlibejudc9cj5kogv9e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA_Wcicv-Wf8W_IuM8Js92gTGOt1v_t_F8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>655214383109</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>wongs.wongsgallery</string>
+	<key>PROJECT_ID</key>
+	<string>wong-s-gallery</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wong-s-gallery.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:655214383109:ios:ca16aed1ac5bd1678a4c6c</string>
+	<key>DATABASE_URL</key>
+	<string>https://wong-s-gallery.firebaseio.com</string>
+</dict>
+</plist>
