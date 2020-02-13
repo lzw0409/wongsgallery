@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G103" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+    <entity name="Categries" representedClassName="Categries" syncable="YES" codeGenerationType="class">
+        <attribute name="itemCateg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="itemTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="Entity" positionX="-63" positionY="-18" width="128" height="45"/>
+        <element name="Categries" positionX="-54" positionY="-9" width="128" height="90"/>
+    </elements>
 </model>

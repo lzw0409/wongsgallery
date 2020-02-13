@@ -8,18 +8,4 @@
 
 import UIKit
 
-class categlistCell: UIViewController,UITabBarDelegate,UITableViewDataSource {
-    
-    var indexRow:Int = 0
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
-    }
-    
-    
-    
-}
+

@@ -3,10 +3,112 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		357AEC5148A2B7AE60BCD720 /* Pods_wongsgalleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C824EB6B3D74969142A35B9D /* Pods_wongsgalleryTests.framework */; };
+		44EC3AF059573444A6B9E22A /* Pods_wongsgallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA86A7F8D03633AF8F96F1BD /* Pods_wongsgallery.framework */; };
+		5A34C7A6236B776800F187B1 /* categListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34C7A5236B776800F187B1 /* categListView.swift */; };
+		5A34C7AA236B841A00F187B1 /* collectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34C7A9236B841A00F187B1 /* collectionViewCell.swift */; };
+		5A4532522385DD6A009B09A8 /* woodtable4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532402385DD5E009B09A8 /* woodtable4.jpg */; };
+		5A4532532385DD6A009B09A8 /* woodtable10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532412385DD5F009B09A8 /* woodtable10.jpg */; };
+		5A4532542385DD6A009B09A8 /* woodtable11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532422385DD5F009B09A8 /* woodtable11.jpg */; };
+		5A4532552385DD6A009B09A8 /* woodtable13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532432385DD60009B09A8 /* woodtable13.jpg */; };
+		5A4532562385DD6A009B09A8 /* woodtable17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532442385DD60009B09A8 /* woodtable17.jpg */; };
+		5A4532572385DD6A009B09A8 /* woodtable14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532452385DD61009B09A8 /* woodtable14.jpg */; };
+		5A4532582385DD6A009B09A8 /* woodtable16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532462385DD62009B09A8 /* woodtable16.jpg */; };
+		5A4532592385DD6A009B09A8 /* woodtable15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532472385DD62009B09A8 /* woodtable15.jpg */; };
+		5A45325A2385DD6A009B09A8 /* woodtable9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532482385DD63009B09A8 /* woodtable9.jpg */; };
+		5A45325B2385DD6A009B09A8 /* woodtable18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532492385DD64009B09A8 /* woodtable18.jpg */; };
+		5A45325C2385DD6A009B09A8 /* woodtable7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45324A2385DD64009B09A8 /* woodtable7.jpg */; };
+		5A45325D2385DD6A009B09A8 /* woodtable5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45324B2385DD65009B09A8 /* woodtable5.jpg */; };
+		5A45325E2385DD6A009B09A8 /* woodtable12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45324C2385DD66009B09A8 /* woodtable12.jpg */; };
+		5A45325F2385DD6A009B09A8 /* woodtable3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45324D2385DD67009B09A8 /* woodtable3.jpg */; };
+		5A4532602385DD6A009B09A8 /* woodtable1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45324E2385DD67009B09A8 /* woodtable1.jpg */; };
+		5A4532612385DD6A009B09A8 /* woodtable6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45324F2385DD68009B09A8 /* woodtable6.jpg */; };
+		5A4532622385DD6A009B09A8 /* woodtable2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532502385DD69009B09A8 /* woodtable2.jpg */; };
+		5A4532632385DD6A009B09A8 /* woodtable8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532512385DD69009B09A8 /* woodtable8.jpg */; };
+		5A4532AA2385E004009B09A8 /* Ornamental White.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45329B2385DFF9009B09A8 /* Ornamental White.jpg */; };
+		5A4532AB2385E004009B09A8 /* Silver Cloud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45329C2385DFFA009B09A8 /* Silver Cloud.jpg */; };
+		5A4532AC2385E004009B09A8 /* 2CMAfricanCanyon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45329D2385DFFB009B09A8 /* 2CMAfricanCanyon.jpeg */; };
+		5A4532AE2385E004009B09A8 /* Silver Canyon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45329F2385DFFC009B09A8 /* Silver Canyon.jpeg */; };
+		5A4532AF2385E004009B09A8 /* Rusty Gold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532A02385DFFD009B09A8 /* Rusty Gold.jpg */; };
+		5A4532B12385E004009B09A8 /* Steel Grey Leather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532A22385DFFE009B09A8 /* Steel Grey Leather.jpg */; };
+		5A4532B22385E004009B09A8 /* 2CMBluePearl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532A32385DFFF009B09A8 /* 2CMBluePearl.jpg */; };
+		5A4532B32385E004009B09A8 /* Ubatuba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532A42385E000009B09A8 /* Ubatuba.jpg */; };
+		5A4532B42385E004009B09A8 /* Tan Brown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532A52385E001009B09A8 /* Tan Brown.jpeg */; };
+		5A4532B52385E004009B09A8 /* EmeraldPearl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532A62385E002009B09A8 /* EmeraldPearl.jpg */; };
+		5A4532B62385E004009B09A8 /* Sage Brush.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532A72385E002009B09A8 /* Sage Brush.jpeg */; };
+		5A4532B72385E004009B09A8 /* Yellow Butterfly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532A82385E004009B09A8 /* Yellow Butterfly.jpg */; };
+		5A4532B82385E004009B09A8 /* Viscount White.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532A92385E004009B09A8 /* Viscount White.jpg */; };
+		5A4532C02385E110009B09A8 /* Mornington-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532BC2385E110009B09A8 /* Mornington-3.jpg */; };
+		5A4532C12385E110009B09A8 /* Mornington-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532BD2385E110009B09A8 /* Mornington-1.jpg */; };
+		5A4532C22385E110009B09A8 /* Mornington.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532BE2385E110009B09A8 /* Mornington.jpg */; };
+		5A4532C32385E110009B09A8 /* Mornington-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532BF2385E110009B09A8 /* Mornington-2.jpg */; };
+		5A4532CF2385E20C009B09A8 /* whiteshaker2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532C42385E203009B09A8 /* whiteshaker2.jpeg */; };
+		5A4532D02385E20C009B09A8 /* whiteshaker4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532C52385E204009B09A8 /* whiteshaker4.jpeg */; };
+		5A4532D12385E20C009B09A8 /* whiteshaker7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532C62385E204009B09A8 /* whiteshaker7.jpg */; };
+		5A4532D22385E20C009B09A8 /* whiteshaker11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532C72385E205009B09A8 /* whiteshaker11.jpeg */; };
+		5A4532D32385E20C009B09A8 /* whiteshaker1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532C82385E206009B09A8 /* whiteshaker1.jpg */; };
+		5A4532D42385E20C009B09A8 /* whiteshaker5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532C92385E207009B09A8 /* whiteshaker5.jpg */; };
+		5A4532D52385E20C009B09A8 /* whiteshaker9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532CA2385E208009B09A8 /* whiteshaker9.jpg */; };
+		5A4532D62385E20C009B09A8 /* whiteshaker8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532CB2385E209009B09A8 /* whiteshaker8.jpeg */; };
+		5A4532D72385E20C009B09A8 /* whiteshaker6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532CC2385E20A009B09A8 /* whiteshaker6.jpeg */; };
+		5A4532D82385E20C009B09A8 /* whiteshaker3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532CD2385E20A009B09A8 /* whiteshaker3.jpeg */; };
+		5A4532D92385E20C009B09A8 /* whiteshaker10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4532CE2385E20B009B09A8 /* whiteshaker10.jpeg */; };
+		5A4533122385E9D0009B09A8 /* shower9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533042385E9BB009B09A8 /* shower9.jpg */; };
+		5A4533132385E9D1009B09A8 /* shower2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533052385E9BC009B09A8 /* shower2.jpg */; };
+		5A4533142385E9D1009B09A8 /* shower12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533062385E9BD009B09A8 /* shower12.jpg */; };
+		5A4533152385E9D1009B09A8 /* shower8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533072385E9BD009B09A8 /* shower8.jpg */; };
+		5A4533162385E9D1009B09A8 /* shower7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533082385E9BE009B09A8 /* shower7.jpg */; };
+		5A4533172385E9D1009B09A8 /* shower1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533092385E9C0009B09A8 /* shower1.jpg */; };
+		5A4533182385E9D1009B09A8 /* shower10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45330A2385E9C1009B09A8 /* shower10.jpg */; };
+		5A4533192385E9D1009B09A8 /* shower5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45330B2385E9C1009B09A8 /* shower5.jpg */; };
+		5A45331A2385E9D1009B09A8 /* shower6.tif in Resources */ = {isa = PBXBuildFile; fileRef = 5A45330D2385E9CA009B09A8 /* shower6.tif */; };
+		5A45331B2385E9D1009B09A8 /* shower3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45330E2385E9CB009B09A8 /* shower3.jpg */; };
+		5A45331C2385E9D1009B09A8 /* shower4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45330F2385E9CD009B09A8 /* shower4.jpg */; };
+		5A45331D2385E9D1009B09A8 /* shower13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533102385E9CE009B09A8 /* shower13.jpg */; };
+		5A45331E2385E9D1009B09A8 /* shower11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533112385E9D0009B09A8 /* shower11.jpg */; };
+		5A4533452385FAB0009B09A8 /* Majestic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533302385FA73009B09A8 /* Majestic.jpg */; };
+		5A4533462385FAB0009B09A8 /* Cinnamon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533312385FA76009B09A8 /* Cinnamon.jpg */; };
+		5A4533472385FAB0009B09A8 /* Stratus White.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533322385FA79009B09A8 /* Stratus White.jpg */; };
+		5A4533482385FAB0009B09A8 /* Charcoal Grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533332385FA7B009B09A8 /* Charcoal Grey.jpg */; };
+		5A4533492385FAB0009B09A8 /* Bianco Carmel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533342385FA7E009B09A8 /* Bianco Carmel.jpg */; };
+		5A45334A2385FAB0009B09A8 /* Dove White.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533352385FA80009B09A8 /* Dove White.JPG */; };
+		5A45334B2385FAB0009B09A8 /* Sparkling Grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533362385FA83009B09A8 /* Sparkling Grey.jpg */; };
+		5A45334C2385FAB0009B09A8 /* Sparkling White.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533372385FA84009B09A8 /* Sparkling White.jpg */; };
+		5A45334D2385FAB0009B09A8 /* White Mist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533382385FA86009B09A8 /* White Mist.jpg */; };
+		5A45334E2385FAB0009B09A8 /* White Waves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533392385FA88009B09A8 /* White Waves.jpg */; };
+		5A45334F2385FAB0009B09A8 /* Storm Grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45333A2385FA8B009B09A8 /* Storm Grey.jpg */; };
+		5A4533502385FAB0009B09A8 /* Arlington Grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45333B2385FA8F009B09A8 /* Arlington Grey.jpg */; };
+		5A4533512385FAB0009B09A8 /* Dove Grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45333C2385FA93009B09A8 /* Dove Grey.jpg */; };
+		5A4533522385FAB0009B09A8 /* Crema Perlato.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5A45333D2385FA95009B09A8 /* Crema Perlato.JPG */; };
+		5A4533532385FAB0009B09A8 /* Bianco Calacatta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A45333E2385FA97009B09A8 /* Bianco Calacatta.jpg */; };
+		5A4533542385FAB0009B09A8 /* Bianco Swan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533402385FAA2009B09A8 /* Bianco Swan.jpg */; };
+		5A4533552385FAB0009B09A8 /* Oyster Beige.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533412385FAA5009B09A8 /* Oyster Beige.JPG */; };
+		5A4533562385FAB0009B09A8 /* Tuscany Gold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533422385FAAA009B09A8 /* Tuscany Gold.jpg */; };
+		5A4533572385FAB0009B09A8 /* Midnight Mist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533432385FAAB009B09A8 /* Midnight Mist.jpg */; };
+		5A4533582385FAB0009B09A8 /* 2ArcticWhiteQZ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533442385FAAF009B09A8 /* 2ArcticWhiteQZ.jpg */; };
+		5A45335A2385FD81009B09A8 /* Chocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533592385FD81009B09A8 /* Chocolate.png */; };
+		5A4533622385FDB2009B09A8 /* White Shaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A45335B2385FDB1009B09A8 /* White Shaker.png */; };
+		5A4533632385FDB2009B09A8 /* Grey Shaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A45335C2385FDB2009B09A8 /* Grey Shaker.png */; };
+		5A4533642385FDB2009B09A8 /* Cocoa Shaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A45335D2385FDB2009B09A8 /* Cocoa Shaker.png */; };
+		5A4533652385FDB2009B09A8 /* Honey Shaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A45335E2385FDB2009B09A8 /* Honey Shaker.png */; };
+		5A4533662385FDB2009B09A8 /* Natural Shaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A45335F2385FDB2009B09A8 /* Natural Shaker.png */; };
+		5A4533672385FDB2009B09A8 /* Helena Saddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533602385FDB2009B09A8 /* Helena Saddle.png */; };
+		5A4533682385FDB2009B09A8 /* Espresso.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A4533612385FDB2009B09A8 /* Espresso.png */; };
+		5A4C904423F4CDAC00A7B3FB /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C904323F4CDAC00A7B3FB /* loginViewController.swift */; };
+		5A78741423AEA5A600323FC5 /* categCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78741323AEA5A600323FC5 /* categCellView.swift */; };
+		5A8EA54423EB6FB7004C54D5 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8EA54223EB6FB5004C54D5 /* Realm.framework */; };
+		5A8EA54523EB6FB7004C54D5 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8EA54323EB6FB6004C54D5 /* RealmSwift.framework */; };
+		5A8EA54723EF6CC8004C54D5 /* adminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8EA54623EF6CC8004C54D5 /* adminViewController.swift */; };
+		5A8EA54923EF98BF004C54D5 /* adminviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8EA54823EF98BF004C54D5 /* adminviewCell.swift */; };
+		5A9B2A842363764400DA8F2B /* categlistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B2A832363764400DA8F2B /* categlistCell.swift */; };
+		5A9B2A8A2363C1C100DA8F2B /* itemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B2A892363C1C100DA8F2B /* itemList.swift */; };
+		5AB0C142235D700600343388 /* itemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB0C141235D700600343388 /* itemInfo.swift */; };
+		5ACDB54D237B653F006B77FA /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACDB54C237B653F006B77FA /* dataModel.swift */; };
+		5ADD8BD523C54C980040DCA0 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD8BD423C54C980040DCA0 /* detailViewController.swift */; };
 		5AEE5BB0235B9E4C002A79F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE5BAF235B9E4C002A79F5 /* AppDelegate.swift */; };
 		5AEE5BB2235B9E4C002A79F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE5BB1235B9E4C002A79F5 /* ViewController.swift */; };
 		5AEE5BB5235B9E4C002A79F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AEE5BB3235B9E4C002A79F5 /* Main.storyboard */; };
@@ -14,6 +116,8 @@
 		5AEE5BBA235B9E4E002A79F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AEE5BB8235B9E4E002A79F5 /* LaunchScreen.storyboard */; };
 		5AEE5BC5235B9E4F002A79F5 /* wongsgalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE5BC4235B9E4F002A79F5 /* wongsgalleryTests.swift */; };
 		5AEE5BD0235B9E4F002A79F5 /* wongsgalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE5BCF235B9E4F002A79F5 /* wongsgalleryUITests.swift */; };
+		5AEE5BDE235BA340002A79F5 /* categCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE5BDD235BA340002A79F5 /* categCell.swift */; };
+		D093CB2B7C9F3D0F0FE6BA9E /* Pods_wongsgallery_wongsgalleryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC7AD25A8F63A955D6AA034 /* Pods_wongsgallery_wongsgalleryUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +138,118 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C947B0C30C2763C1CC5A744 /* Pods-wongsgallery-wongsgalleryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wongsgallery-wongsgalleryUITests.release.xcconfig"; path = "Target Support Files/Pods-wongsgallery-wongsgalleryUITests/Pods-wongsgallery-wongsgalleryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		416864E206DAD48C4F2A05B2 /* Pods-wongsgalleryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wongsgalleryTests.debug.xcconfig"; path = "Target Support Files/Pods-wongsgalleryTests/Pods-wongsgalleryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A34C7A5236B776800F187B1 /* categListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categListView.swift; sourceTree = "<group>"; };
+		5A34C7A9236B841A00F187B1 /* collectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewCell.swift; sourceTree = "<group>"; };
+		5A4532402385DD5E009B09A8 /* woodtable4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable4.jpg; sourceTree = "<group>"; };
+		5A4532412385DD5F009B09A8 /* woodtable10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable10.jpg; sourceTree = "<group>"; };
+		5A4532422385DD5F009B09A8 /* woodtable11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable11.jpg; sourceTree = "<group>"; };
+		5A4532432385DD60009B09A8 /* woodtable13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable13.jpg; sourceTree = "<group>"; };
+		5A4532442385DD60009B09A8 /* woodtable17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable17.jpg; sourceTree = "<group>"; };
+		5A4532452385DD61009B09A8 /* woodtable14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable14.jpg; sourceTree = "<group>"; };
+		5A4532462385DD62009B09A8 /* woodtable16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable16.jpg; sourceTree = "<group>"; };
+		5A4532472385DD62009B09A8 /* woodtable15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable15.jpg; sourceTree = "<group>"; };
+		5A4532482385DD63009B09A8 /* woodtable9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable9.jpg; sourceTree = "<group>"; };
+		5A4532492385DD64009B09A8 /* woodtable18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable18.jpg; sourceTree = "<group>"; };
+		5A45324A2385DD64009B09A8 /* woodtable7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable7.jpg; sourceTree = "<group>"; };
+		5A45324B2385DD65009B09A8 /* woodtable5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable5.jpg; sourceTree = "<group>"; };
+		5A45324C2385DD66009B09A8 /* woodtable12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable12.jpg; sourceTree = "<group>"; };
+		5A45324D2385DD67009B09A8 /* woodtable3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable3.jpg; sourceTree = "<group>"; };
+		5A45324E2385DD67009B09A8 /* woodtable1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable1.jpg; sourceTree = "<group>"; };
+		5A45324F2385DD68009B09A8 /* woodtable6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable6.jpg; sourceTree = "<group>"; };
+		5A4532502385DD69009B09A8 /* woodtable2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable2.jpg; sourceTree = "<group>"; };
+		5A4532512385DD69009B09A8 /* woodtable8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtable8.jpg; sourceTree = "<group>"; };
+		5A45329B2385DFF9009B09A8 /* Ornamental White.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ornamental White.jpg"; sourceTree = "<group>"; };
+		5A45329C2385DFFA009B09A8 /* Silver Cloud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Silver Cloud.jpg"; sourceTree = "<group>"; };
+		5A45329D2385DFFB009B09A8 /* 2CMAfricanCanyon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2CMAfricanCanyon.jpeg; sourceTree = "<group>"; };
+		5A45329F2385DFFC009B09A8 /* Silver Canyon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Silver Canyon.jpeg"; sourceTree = "<group>"; };
+		5A4532A02385DFFD009B09A8 /* Rusty Gold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rusty Gold.jpg"; sourceTree = "<group>"; };
+		5A4532A22385DFFE009B09A8 /* Steel Grey Leather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Steel Grey Leather.jpg"; sourceTree = "<group>"; };
+		5A4532A32385DFFF009B09A8 /* 2CMBluePearl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2CMBluePearl.jpg; sourceTree = "<group>"; };
+		5A4532A42385E000009B09A8 /* Ubatuba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ubatuba.jpg; sourceTree = "<group>"; };
+		5A4532A52385E001009B09A8 /* Tan Brown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tan Brown.jpeg"; sourceTree = "<group>"; };
+		5A4532A62385E002009B09A8 /* EmeraldPearl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EmeraldPearl.jpg; sourceTree = "<group>"; };
+		5A4532A72385E002009B09A8 /* Sage Brush.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sage Brush.jpeg"; sourceTree = "<group>"; };
+		5A4532A82385E004009B09A8 /* Yellow Butterfly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yellow Butterfly.jpg"; sourceTree = "<group>"; };
+		5A4532A92385E004009B09A8 /* Viscount White.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Viscount White.jpg"; sourceTree = "<group>"; };
+		5A4532BA2385E01C009B09A8 /* New Venetian Gold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "New Venetian Gold.jpg"; sourceTree = "<group>"; };
+		5A4532BB2385E01E009B09A8 /* Monta Lotus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monta Lotus.jpg"; sourceTree = "<group>"; };
+		5A4532BC2385E110009B09A8 /* Mornington-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mornington-3.jpg"; path = "../../../../Downloads/Website picture/Flooring/Vinyl Plank/Mornington/Mornington-3.jpg"; sourceTree = "<group>"; };
+		5A4532BD2385E110009B09A8 /* Mornington-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mornington-1.jpg"; path = "../../../../Downloads/Website picture/Flooring/Vinyl Plank/Mornington/Mornington-1.jpg"; sourceTree = "<group>"; };
+		5A4532BE2385E110009B09A8 /* Mornington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Mornington.jpg; path = "../../../../Downloads/Website picture/Flooring/Vinyl Plank/Mornington/Mornington.jpg"; sourceTree = "<group>"; };
+		5A4532BF2385E110009B09A8 /* Mornington-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mornington-2.jpg"; path = "../../../../Downloads/Website picture/Flooring/Vinyl Plank/Mornington/Mornington-2.jpg"; sourceTree = "<group>"; };
+		5A4532C42385E203009B09A8 /* whiteshaker2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteshaker2.jpeg; sourceTree = "<group>"; };
+		5A4532C52385E204009B09A8 /* whiteshaker4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteshaker4.jpeg; sourceTree = "<group>"; };
+		5A4532C62385E204009B09A8 /* whiteshaker7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteshaker7.jpg; sourceTree = "<group>"; };
+		5A4532C72385E205009B09A8 /* whiteshaker11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteshaker11.jpeg; sourceTree = "<group>"; };
+		5A4532C82385E206009B09A8 /* whiteshaker1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteshaker1.jpg; sourceTree = "<group>"; };
+		5A4532C92385E207009B09A8 /* whiteshaker5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteshaker5.jpg; sourceTree = "<group>"; };
+		5A4532CA2385E208009B09A8 /* whiteshaker9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteshaker9.jpg; sourceTree = "<group>"; };
+		5A4532CB2385E209009B09A8 /* whiteshaker8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteshaker8.jpeg; sourceTree = "<group>"; };
+		5A4532CC2385E20A009B09A8 /* whiteshaker6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteshaker6.jpeg; sourceTree = "<group>"; };
+		5A4532CD2385E20A009B09A8 /* whiteshaker3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteshaker3.jpeg; sourceTree = "<group>"; };
+		5A4532CE2385E20B009B09A8 /* whiteshaker10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteshaker10.jpeg; sourceTree = "<group>"; };
+		5A4533042385E9BB009B09A8 /* shower9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower9.jpg; sourceTree = "<group>"; };
+		5A4533052385E9BC009B09A8 /* shower2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower2.jpg; sourceTree = "<group>"; };
+		5A4533062385E9BD009B09A8 /* shower12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower12.jpg; sourceTree = "<group>"; };
+		5A4533072385E9BD009B09A8 /* shower8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower8.jpg; sourceTree = "<group>"; };
+		5A4533082385E9BE009B09A8 /* shower7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower7.jpg; sourceTree = "<group>"; };
+		5A4533092385E9C0009B09A8 /* shower1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower1.jpg; sourceTree = "<group>"; };
+		5A45330A2385E9C1009B09A8 /* shower10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower10.jpg; sourceTree = "<group>"; };
+		5A45330B2385E9C1009B09A8 /* shower5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower5.jpg; sourceTree = "<group>"; };
+		5A45330D2385E9CA009B09A8 /* shower6.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = shower6.tif; sourceTree = "<group>"; };
+		5A45330E2385E9CB009B09A8 /* shower3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower3.jpg; sourceTree = "<group>"; };
+		5A45330F2385E9CD009B09A8 /* shower4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower4.jpg; sourceTree = "<group>"; };
+		5A4533102385E9CE009B09A8 /* shower13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower13.jpg; sourceTree = "<group>"; };
+		5A4533112385E9D0009B09A8 /* shower11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shower11.jpg; sourceTree = "<group>"; };
+		5A4533202385EA40009B09A8 /* Helena Saddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Helena Saddle.png"; sourceTree = "<group>"; };
+		5A4533212385EA41009B09A8 /* White Shaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White Shaker.png"; sourceTree = "<group>"; };
+		5A4533222385EA43009B09A8 /* Honey Shaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Honey Shaker.png"; sourceTree = "<group>"; };
+		5A4533232385EA44009B09A8 /* Espresso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Espresso.png; sourceTree = "<group>"; };
+		5A4533242385EA45009B09A8 /* Grey Shaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grey Shaker.png"; sourceTree = "<group>"; };
+		5A4533252385EA47009B09A8 /* Cocoa Shaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cocoa Shaker.png"; sourceTree = "<group>"; };
+		5A4533262385EA48009B09A8 /* Natural Shaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Natural Shaker.png"; sourceTree = "<group>"; };
+		5A4533282385EA4B009B09A8 /* Chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chocolate.png; sourceTree = "<group>"; };
+		5A4533302385FA73009B09A8 /* Majestic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Majestic.jpg; sourceTree = "<group>"; };
+		5A4533312385FA76009B09A8 /* Cinnamon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cinnamon.jpg; sourceTree = "<group>"; };
+		5A4533322385FA79009B09A8 /* Stratus White.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stratus White.jpg"; sourceTree = "<group>"; };
+		5A4533332385FA7B009B09A8 /* Charcoal Grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Charcoal Grey.jpg"; sourceTree = "<group>"; };
+		5A4533342385FA7E009B09A8 /* Bianco Carmel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bianco Carmel.jpg"; sourceTree = "<group>"; };
+		5A4533352385FA80009B09A8 /* Dove White.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dove White.JPG"; sourceTree = "<group>"; };
+		5A4533362385FA83009B09A8 /* Sparkling Grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sparkling Grey.jpg"; sourceTree = "<group>"; };
+		5A4533372385FA84009B09A8 /* Sparkling White.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sparkling White.jpg"; sourceTree = "<group>"; };
+		5A4533382385FA86009B09A8 /* White Mist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "White Mist.jpg"; sourceTree = "<group>"; };
+		5A4533392385FA88009B09A8 /* White Waves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "White Waves.jpg"; path = "../New Group/White Waves.jpg"; sourceTree = "<group>"; };
+		5A45333A2385FA8B009B09A8 /* Storm Grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Storm Grey.jpg"; sourceTree = "<group>"; };
+		5A45333B2385FA8F009B09A8 /* Arlington Grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Arlington Grey.jpg"; sourceTree = "<group>"; };
+		5A45333C2385FA93009B09A8 /* Dove Grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dove Grey.jpg"; sourceTree = "<group>"; };
+		5A45333D2385FA95009B09A8 /* Crema Perlato.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crema Perlato.JPG"; sourceTree = "<group>"; };
+		5A45333E2385FA97009B09A8 /* Bianco Calacatta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bianco Calacatta.jpg"; sourceTree = "<group>"; };
+		5A4533402385FAA2009B09A8 /* Bianco Swan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bianco Swan.jpg"; sourceTree = "<group>"; };
+		5A4533412385FAA5009B09A8 /* Oyster Beige.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oyster Beige.JPG"; sourceTree = "<group>"; };
+		5A4533422385FAAA009B09A8 /* Tuscany Gold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tuscany Gold.jpg"; sourceTree = "<group>"; };
+		5A4533432385FAAB009B09A8 /* Midnight Mist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Midnight Mist.jpg"; sourceTree = "<group>"; };
+		5A4533442385FAAF009B09A8 /* 2ArcticWhiteQZ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2ArcticWhiteQZ.jpg; sourceTree = "<group>"; };
+		5A4533592385FD81009B09A8 /* Chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chocolate.png; path = "../../../../../Downloads/Website picture/Cabinet/Wood Cabinet/Chocolate.png"; sourceTree = "<group>"; };
+		5A45335B2385FDB1009B09A8 /* White Shaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "White Shaker.png"; path = "../../../../../Downloads/Website picture/Cabinet/Wood Cabinet/White Shaker.png"; sourceTree = "<group>"; };
+		5A45335C2385FDB2009B09A8 /* Grey Shaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Grey Shaker.png"; path = "../../../../../Downloads/Website picture/Cabinet/Wood Cabinet/Grey Shaker.png"; sourceTree = "<group>"; };
+		5A45335D2385FDB2009B09A8 /* Cocoa Shaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cocoa Shaker.png"; path = "../../../../../Downloads/Website picture/Cabinet/Wood Cabinet/Cocoa Shaker.png"; sourceTree = "<group>"; };
+		5A45335E2385FDB2009B09A8 /* Honey Shaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Honey Shaker.png"; path = "../../../../../Downloads/Website picture/Cabinet/Wood Cabinet/Honey Shaker.png"; sourceTree = "<group>"; };
+		5A45335F2385FDB2009B09A8 /* Natural Shaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Natural Shaker.png"; path = "../../../../../Downloads/Website picture/Cabinet/Wood Cabinet/Natural Shaker.png"; sourceTree = "<group>"; };
+		5A4533602385FDB2009B09A8 /* Helena Saddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Helena Saddle.png"; path = "../../../../../Downloads/Website picture/Cabinet/Wood Cabinet/Helena Saddle.png"; sourceTree = "<group>"; };
+		5A4533612385FDB2009B09A8 /* Espresso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Espresso.png; path = "../../../../../Downloads/Website picture/Cabinet/Wood Cabinet/Espresso.png"; sourceTree = "<group>"; };
+		5A4C904323F4CDAC00A7B3FB /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		5A78741323AEA5A600323FC5 /* categCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categCellView.swift; sourceTree = "<group>"; };
+		5A8EA54223EB6FB5004C54D5 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		5A8EA54323EB6FB6004C54D5 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		5A8EA54623EF6CC8004C54D5 /* adminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adminViewController.swift; sourceTree = "<group>"; };
+		5A8EA54823EF98BF004C54D5 /* adminviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adminviewCell.swift; sourceTree = "<group>"; };
+		5A9B2A832363764400DA8F2B /* categlistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categlistCell.swift; sourceTree = "<group>"; };
+		5A9B2A892363C1C100DA8F2B /* itemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemList.swift; sourceTree = "<group>"; };
+		5AB0C141235D700600343388 /* itemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemInfo.swift; sourceTree = "<group>"; };
+		5ACDB54C237B653F006B77FA /* dataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
+		5ADD8BD423C54C980040DCA0 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		5AEE5BAC235B9E4C002A79F5 /* wongsgallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wongsgallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEE5BAF235B9E4C002A79F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AEE5BB1235B9E4C002A79F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +263,14 @@
 		5AEE5BCB235B9E4F002A79F5 /* wongsgalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wongsgalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEE5BCF235B9E4F002A79F5 /* wongsgalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wongsgalleryUITests.swift; sourceTree = "<group>"; };
 		5AEE5BD1235B9E4F002A79F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AEE5BDD235BA340002A79F5 /* categCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categCell.swift; sourceTree = "<group>"; };
+		95D1ADB428E04EBD5B6CB9CE /* Pods-wongsgallery-wongsgalleryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wongsgallery-wongsgalleryUITests.debug.xcconfig"; path = "Target Support Files/Pods-wongsgallery-wongsgalleryUITests/Pods-wongsgallery-wongsgalleryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EC7AD25A8F63A955D6AA034 /* Pods_wongsgallery_wongsgalleryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wongsgallery_wongsgalleryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA86A7F8D03633AF8F96F1BD /* Pods_wongsgallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wongsgallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B879DEC4B89D9A9EA19AD781 /* Pods-wongsgalleryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wongsgalleryTests.release.xcconfig"; path = "Target Support Files/Pods-wongsgalleryTests/Pods-wongsgalleryTests.release.xcconfig"; sourceTree = "<group>"; };
+		C824EB6B3D74969142A35B9D /* Pods_wongsgalleryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wongsgalleryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D821A684B320184441629516 /* Pods-wongsgallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wongsgallery.release.xcconfig"; path = "Target Support Files/Pods-wongsgallery/Pods-wongsgallery.release.xcconfig"; sourceTree = "<group>"; };
+		DF77E293A851FBFB750B392F /* Pods-wongsgallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wongsgallery.debug.xcconfig"; path = "Target Support Files/Pods-wongsgallery/Pods-wongsgallery.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +278,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8EA54423EB6FB7004C54D5 /* Realm.framework in Frameworks */,
+				44EC3AF059573444A6B9E22A /* Pods_wongsgallery.framework in Frameworks */,
+				5A8EA54523EB6FB7004C54D5 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +288,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357AEC5148A2B7AE60BCD720 /* Pods_wongsgalleryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +296,261 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D093CB2B7C9F3D0F0FE6BA9E /* Pods_wongsgallery_wongsgalleryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		505DAC4D9138F67356776A09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A8EA54223EB6FB5004C54D5 /* Realm.framework */,
+				5A8EA54323EB6FB6004C54D5 /* RealmSwift.framework */,
+				DF77E293A851FBFB750B392F /* Pods-wongsgallery.debug.xcconfig */,
+				D821A684B320184441629516 /* Pods-wongsgallery.release.xcconfig */,
+				95D1ADB428E04EBD5B6CB9CE /* Pods-wongsgallery-wongsgalleryUITests.debug.xcconfig */,
+				2C947B0C30C2763C1CC5A744 /* Pods-wongsgallery-wongsgalleryUITests.release.xcconfig */,
+				416864E206DAD48C4F2A05B2 /* Pods-wongsgalleryTests.debug.xcconfig */,
+				B879DEC4B89D9A9EA19AD781 /* Pods-wongsgalleryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A34C78D236A2FB100F187B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA86A7F8D03633AF8F96F1BD /* Pods_wongsgallery.framework */,
+				9EC7AD25A8F63A955D6AA034 /* Pods_wongsgallery_wongsgalleryUITests.framework */,
+				C824EB6B3D74969142A35B9D /* Pods_wongsgalleryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A4532642385DD7C009B09A8 /* woodtable */ = {
+			isa = PBXGroup;
+			children = (
+				5A45324E2385DD67009B09A8 /* woodtable1.jpg */,
+				5A4532502385DD69009B09A8 /* woodtable2.jpg */,
+				5A45324D2385DD67009B09A8 /* woodtable3.jpg */,
+				5A4532402385DD5E009B09A8 /* woodtable4.jpg */,
+				5A45324B2385DD65009B09A8 /* woodtable5.jpg */,
+				5A45324F2385DD68009B09A8 /* woodtable6.jpg */,
+				5A45324A2385DD64009B09A8 /* woodtable7.jpg */,
+				5A4532512385DD69009B09A8 /* woodtable8.jpg */,
+				5A4532482385DD63009B09A8 /* woodtable9.jpg */,
+				5A4532412385DD5F009B09A8 /* woodtable10.jpg */,
+				5A4532422385DD5F009B09A8 /* woodtable11.jpg */,
+				5A45324C2385DD66009B09A8 /* woodtable12.jpg */,
+				5A4532432385DD60009B09A8 /* woodtable13.jpg */,
+				5A4532452385DD61009B09A8 /* woodtable14.jpg */,
+				5A4532472385DD62009B09A8 /* woodtable15.jpg */,
+				5A4532462385DD62009B09A8 /* woodtable16.jpg */,
+				5A4532442385DD60009B09A8 /* woodtable17.jpg */,
+				5A4532492385DD64009B09A8 /* woodtable18.jpg */,
+			);
+			path = woodtable;
+			sourceTree = "<group>";
+		};
+		5A4532B92385E01A009B09A8 /* 2CMGranite */ = {
+			isa = PBXGroup;
+			children = (
+				5A45329D2385DFFB009B09A8 /* 2CMAfricanCanyon.jpeg */,
+				5A4532A32385DFFF009B09A8 /* 2CMBluePearl.jpg */,
+				5A4532A62385E002009B09A8 /* EmeraldPearl.jpg */,
+				5A4532BB2385E01E009B09A8 /* Monta Lotus.jpg */,
+				5A4532BA2385E01C009B09A8 /* New Venetian Gold.jpg */,
+				5A45329B2385DFF9009B09A8 /* Ornamental White.jpg */,
+				5A4532A02385DFFD009B09A8 /* Rusty Gold.jpg */,
+				5A4532A72385E002009B09A8 /* Sage Brush.jpeg */,
+				5A45329F2385DFFC009B09A8 /* Silver Canyon.jpeg */,
+				5A45329C2385DFFA009B09A8 /* Silver Cloud.jpg */,
+				5A4532A22385DFFE009B09A8 /* Steel Grey Leather.jpg */,
+				5A4532A52385E001009B09A8 /* Tan Brown.jpeg */,
+				5A4532A42385E000009B09A8 /* Ubatuba.jpg */,
+				5A4532A92385E004009B09A8 /* Viscount White.jpg */,
+				5A4532A82385E004009B09A8 /* Yellow Butterfly.jpg */,
+			);
+			path = 2CMGranite;
+			sourceTree = "<group>";
+		};
+		5A4532DA2385E214009B09A8 /* whiteshaker */ = {
+			isa = PBXGroup;
+			children = (
+				5A4532C82385E206009B09A8 /* whiteshaker1.jpg */,
+				5A4532C42385E203009B09A8 /* whiteshaker2.jpeg */,
+				5A4532CD2385E20A009B09A8 /* whiteshaker3.jpeg */,
+				5A4532C52385E204009B09A8 /* whiteshaker4.jpeg */,
+				5A4532C92385E207009B09A8 /* whiteshaker5.jpg */,
+				5A4532CC2385E20A009B09A8 /* whiteshaker6.jpeg */,
+				5A4532C62385E204009B09A8 /* whiteshaker7.jpg */,
+				5A4532CB2385E209009B09A8 /* whiteshaker8.jpeg */,
+				5A4532CA2385E208009B09A8 /* whiteshaker9.jpg */,
+				5A4532CE2385E20B009B09A8 /* whiteshaker10.jpeg */,
+				5A4532C72385E205009B09A8 /* whiteshaker11.jpeg */,
+			);
+			path = whiteshaker;
+			sourceTree = "<group>";
+		};
+		5A4532FB2385E864009B09A8 /* cabinetColor */ = {
+			isa = PBXGroup;
+			children = (
+				5A4533592385FD81009B09A8 /* Chocolate.png */,
+				5A45335D2385FDB2009B09A8 /* Cocoa Shaker.png */,
+				5A4533612385FDB2009B09A8 /* Espresso.png */,
+				5A45335C2385FDB2009B09A8 /* Grey Shaker.png */,
+				5A4533602385FDB2009B09A8 /* Helena Saddle.png */,
+				5A45335E2385FDB2009B09A8 /* Honey Shaker.png */,
+				5A45335F2385FDB2009B09A8 /* Natural Shaker.png */,
+				5A45335B2385FDB1009B09A8 /* White Shaker.png */,
+			);
+			path = cabinetColor;
+			sourceTree = "<group>";
+		};
+		5A45330C2385E9C9009B09A8 /* showerdoor */ = {
+			isa = PBXGroup;
+			children = (
+				5A45330E2385E9CB009B09A8 /* shower3.jpg */,
+				5A45330F2385E9CD009B09A8 /* shower4.jpg */,
+				5A4533112385E9D0009B09A8 /* shower11.jpg */,
+				5A4533062385E9BD009B09A8 /* shower12.jpg */,
+				5A4533102385E9CE009B09A8 /* shower13.jpg */,
+				5A4533092385E9C0009B09A8 /* shower1.jpg */,
+				5A4533052385E9BC009B09A8 /* shower2.jpg */,
+				5A45330B2385E9C1009B09A8 /* shower5.jpg */,
+				5A45330D2385E9CA009B09A8 /* shower6.tif */,
+				5A4533082385E9BE009B09A8 /* shower7.jpg */,
+				5A4533072385E9BD009B09A8 /* shower8.jpg */,
+				5A4533042385E9BB009B09A8 /* shower9.jpg */,
+				5A45330A2385E9C1009B09A8 /* shower10.jpg */,
+			);
+			path = showerdoor;
+			sourceTree = "<group>";
+		};
+		5A45331F2385EA3E009B09A8 /* shakercolor */ = {
+			isa = PBXGroup;
+			children = (
+				5A4533282385EA4B009B09A8 /* Chocolate.png */,
+				5A4533252385EA47009B09A8 /* Cocoa Shaker.png */,
+				5A4533232385EA44009B09A8 /* Espresso.png */,
+				5A4533242385EA45009B09A8 /* Grey Shaker.png */,
+				5A4533202385EA40009B09A8 /* Helena Saddle.png */,
+				5A4533222385EA43009B09A8 /* Honey Shaker.png */,
+				5A4533262385EA48009B09A8 /* Natural Shaker.png */,
+				5A4533212385EA41009B09A8 /* White Shaker.png */,
+			);
+			path = shakercolor;
+			sourceTree = "<group>";
+		};
+		5A45333F2385FAA2009B09A8 /* 2CMq */ = {
+			isa = PBXGroup;
+			children = (
+				5A45333B2385FA8F009B09A8 /* Arlington Grey.jpg */,
+				5A45333E2385FA97009B09A8 /* Bianco Calacatta.jpg */,
+				5A4533342385FA7E009B09A8 /* Bianco Carmel.jpg */,
+				5A4533402385FAA2009B09A8 /* Bianco Swan.jpg */,
+				5A4533332385FA7B009B09A8 /* Charcoal Grey.jpg */,
+				5A4533312385FA76009B09A8 /* Cinnamon.jpg */,
+				5A45333D2385FA95009B09A8 /* Crema Perlato.JPG */,
+				5A45333C2385FA93009B09A8 /* Dove Grey.jpg */,
+				5A4533352385FA80009B09A8 /* Dove White.JPG */,
+				5A4533302385FA73009B09A8 /* Majestic.jpg */,
+				5A4533362385FA83009B09A8 /* Sparkling Grey.jpg */,
+				5A4533372385FA84009B09A8 /* Sparkling White.jpg */,
+				5A45333A2385FA8B009B09A8 /* Storm Grey.jpg */,
+				5A4533322385FA79009B09A8 /* Stratus White.jpg */,
+				5A4533442385FAAF009B09A8 /* 2ArcticWhiteQZ.jpg */,
+				5A4533432385FAAB009B09A8 /* Midnight Mist.jpg */,
+				5A4533412385FAA5009B09A8 /* Oyster Beige.JPG */,
+				5A4533422385FAAA009B09A8 /* Tuscany Gold.jpg */,
+				5A4533392385FA88009B09A8 /* White Waves.jpg */,
+				5A4533382385FA86009B09A8 /* White Mist.jpg */,
+			);
+			path = 2CMq;
+			sourceTree = "<group>";
+		};
+		5A4C904023F4A23000A7B3FB /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AEE5BAF235B9E4C002A79F5 /* AppDelegate.swift */,
+				5AEE5BB1235B9E4C002A79F5 /* ViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		5A4C904123F4A24600A7B3FB /* adminController */ = {
+			isa = PBXGroup;
+			children = (
+				5A8EA54623EF6CC8004C54D5 /* adminViewController.swift */,
+				5A8EA54823EF98BF004C54D5 /* adminviewCell.swift */,
+			);
+			path = adminController;
+			sourceTree = "<group>";
+		};
+		5A4C904223F4CD7500A7B3FB /* userviewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C904323F4CDAC00A7B3FB /* loginViewController.swift */,
+			);
+			path = userviewcontroller;
+			sourceTree = "<group>";
+		};
+		5A516CF3236CE0AE0045F061 /* imageData */ = {
+			isa = PBXGroup;
+			children = (
+				5A45333F2385FAA2009B09A8 /* 2CMq */,
+				5A45330C2385E9C9009B09A8 /* showerdoor */,
+				5A4532FB2385E864009B09A8 /* cabinetColor */,
+				5A45331F2385EA3E009B09A8 /* shakercolor */,
+				5A4532DA2385E214009B09A8 /* whiteshaker */,
+				5A4532BD2385E110009B09A8 /* Mornington-1.jpg */,
+				5A4532BF2385E110009B09A8 /* Mornington-2.jpg */,
+				5A4532BC2385E110009B09A8 /* Mornington-3.jpg */,
+				5A4532BE2385E110009B09A8 /* Mornington.jpg */,
+				5A4532B92385E01A009B09A8 /* 2CMGranite */,
+				5A4532642385DD7C009B09A8 /* woodtable */,
+			);
+			path = imageData;
+			sourceTree = "<group>";
+		};
+		5A9B2A872363C11A00DA8F2B /* detailviewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A34C7A9236B841A00F187B1 /* collectionViewCell.swift */,
+				5ADD8BD423C54C980040DCA0 /* detailViewController.swift */,
+				5AB0C141235D700600343388 /* itemInfo.swift */,
+			);
+			path = detailviewController;
+			sourceTree = "<group>";
+		};
+		5A9B2A882363C18800DA8F2B /* categCellList */ = {
+			isa = PBXGroup;
+			children = (
+				5A9B2A832363764400DA8F2B /* categlistCell.swift */,
+				5A9B2A892363C1C100DA8F2B /* itemList.swift */,
+			);
+			path = categCellList;
+			sourceTree = "<group>";
+		};
+		5A9B2A8C2364AE2100DA8F2B /* categController */ = {
+			isa = PBXGroup;
+			children = (
+				5A78741323AEA5A600323FC5 /* categCellView.swift */,
+				5AEE5BDD235BA340002A79F5 /* categCell.swift */,
+				5A34C7A5236B776800F187B1 /* categListView.swift */,
+			);
+			path = categController;
+			sourceTree = "<group>";
+		};
+		5A9B2A912364EFFE00DA8F2B /* realmData */ = {
+			isa = PBXGroup;
+			children = (
+				5ACDB54C237B653F006B77FA /* dataModel.swift */,
+			);
+			path = realmData;
+			sourceTree = "<group>";
+		};
 		5AEE5BA3235B9E4C002A79F5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +558,8 @@
 				5AEE5BC3235B9E4F002A79F5 /* wongsgalleryTests */,
 				5AEE5BCE235B9E4F002A79F5 /* wongsgalleryUITests */,
 				5AEE5BAD235B9E4C002A79F5 /* Products */,
+				5A34C78D236A2FB100F187B1 /* Frameworks */,
+				505DAC4D9138F67356776A09 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +576,15 @@
 		5AEE5BAE235B9E4C002A79F5 /* wongsgallery */ = {
 			isa = PBXGroup;
 			children = (
-				5AEE5BAF235B9E4C002A79F5 /* AppDelegate.swift */,
-				5AEE5BB1235B9E4C002A79F5 /* ViewController.swift */,
+				5A4C904223F4CD7500A7B3FB /* userviewcontroller */,
+				5A516CF3236CE0AE0045F061 /* imageData */,
+				5A9B2A912364EFFE00DA8F2B /* realmData */,
+				5A4C904023F4A23000A7B3FB /* viewController */,
+				5A4C904123F4A24600A7B3FB /* adminController */,
+				5A9B2A8C2364AE2100DA8F2B /* categController */,
+				5A9B2A872363C11A00DA8F2B /* detailviewController */,
 				5AEE5BB3235B9E4C002A79F5 /* Main.storyboard */,
+				5A9B2A882363C18800DA8F2B /* categCellList */,
 				5AEE5BB6235B9E4E002A79F5 /* Assets.xcassets */,
 				5AEE5BB8235B9E4E002A79F5 /* LaunchScreen.storyboard */,
 				5AEE5BBB235B9E4E002A79F5 /* Info.plist */,
@@ -132,9 +617,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AEE5BD4235B9E4F002A79F5 /* Build configuration list for PBXNativeTarget "wongsgallery" */;
 			buildPhases = (
+				719430D67158444BB0D64BA9 /* [CP] Check Pods Manifest.lock */,
 				5AEE5BA8235B9E4C002A79F5 /* Sources */,
 				5AEE5BA9235B9E4C002A79F5 /* Frameworks */,
 				5AEE5BAA235B9E4C002A79F5 /* Resources */,
+				5A34C79E236A32AF00F187B1 /* ShellScript */,
+				D7A0823AE1E94AC2AF48BE15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +637,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AEE5BD7235B9E4F002A79F5 /* Build configuration list for PBXNativeTarget "wongsgalleryTests" */;
 			buildPhases = (
+				976311539EC503E941746420 /* [CP] Check Pods Manifest.lock */,
 				5AEE5BBC235B9E4F002A79F5 /* Sources */,
 				5AEE5BBD235B9E4F002A79F5 /* Frameworks */,
 				5AEE5BBE235B9E4F002A79F5 /* Resources */,
@@ -167,9 +656,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AEE5BDA235B9E4F002A79F5 /* Build configuration list for PBXNativeTarget "wongsgalleryUITests" */;
 			buildPhases = (
+				B1958A482EC708C0ACFA1BF8 /* [CP] Check Pods Manifest.lock */,
 				5AEE5BC7235B9E4F002A79F5 /* Sources */,
 				5AEE5BC8235B9E4F002A79F5 /* Frameworks */,
 				5AEE5BC9235B9E4F002A79F5 /* Resources */,
+				7588F8331CE3163CEA2C32B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +720,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4533162385E9D1009B09A8 /* shower7.jpg in Resources */,
+				5A45331C2385E9D1009B09A8 /* shower4.jpg in Resources */,
+				5A4532B82385E004009B09A8 /* Viscount White.jpg in Resources */,
+				5A4532532385DD6A009B09A8 /* woodtable10.jpg in Resources */,
+				5A4533122385E9D0009B09A8 /* shower9.jpg in Resources */,
+				5A4532D32385E20C009B09A8 /* whiteshaker1.jpg in Resources */,
+				5A45334B2385FAB0009B09A8 /* Sparkling Grey.jpg in Resources */,
+				5A4532B52385E004009B09A8 /* EmeraldPearl.jpg in Resources */,
+				5A4532CF2385E20C009B09A8 /* whiteshaker2.jpeg in Resources */,
+				5A4532562385DD6A009B09A8 /* woodtable17.jpg in Resources */,
+				5A4532612385DD6A009B09A8 /* woodtable6.jpg in Resources */,
+				5A4532B42385E004009B09A8 /* Tan Brown.jpeg in Resources */,
+				5A4533152385E9D1009B09A8 /* shower8.jpg in Resources */,
+				5A4532522385DD6A009B09A8 /* woodtable4.jpg in Resources */,
+				5A4532B12385E004009B09A8 /* Steel Grey Leather.jpg in Resources */,
+				5A4532C02385E110009B09A8 /* Mornington-3.jpg in Resources */,
+				5A4532542385DD6A009B09A8 /* woodtable11.jpg in Resources */,
+				5A45334A2385FAB0009B09A8 /* Dove White.JPG in Resources */,
+				5A4533652385FDB2009B09A8 /* Honey Shaker.png in Resources */,
+				5A45335A2385FD81009B09A8 /* Chocolate.png in Resources */,
+				5A4533452385FAB0009B09A8 /* Majestic.jpg in Resources */,
+				5A4532B62385E004009B09A8 /* Sage Brush.jpeg in Resources */,
+				5A45325B2385DD6A009B09A8 /* woodtable18.jpg in Resources */,
+				5A4532D72385E20C009B09A8 /* whiteshaker6.jpeg in Resources */,
+				5A4532D52385E20C009B09A8 /* whiteshaker9.jpg in Resources */,
+				5A4532C12385E110009B09A8 /* Mornington-1.jpg in Resources */,
 				5AEE5BBA235B9E4E002A79F5 /* LaunchScreen.storyboard in Resources */,
+				5A4533622385FDB2009B09A8 /* White Shaker.png in Resources */,
+				5A4532572385DD6A009B09A8 /* woodtable14.jpg in Resources */,
+				5A4532D62385E20C009B09A8 /* whiteshaker8.jpeg in Resources */,
+				5A4532C22385E110009B09A8 /* Mornington.jpg in Resources */,
+				5A45325C2385DD6A009B09A8 /* woodtable7.jpg in Resources */,
+				5A45334E2385FAB0009B09A8 /* White Waves.jpg in Resources */,
+				5A4533532385FAB0009B09A8 /* Bianco Calacatta.jpg in Resources */,
+				5A4532B32385E004009B09A8 /* Ubatuba.jpg in Resources */,
+				5A4533192385E9D1009B09A8 /* shower5.jpg in Resources */,
+				5A4533512385FAB0009B09A8 /* Dove Grey.jpg in Resources */,
+				5A45331B2385E9D1009B09A8 /* shower3.jpg in Resources */,
+				5A45331D2385E9D1009B09A8 /* shower13.jpg in Resources */,
+				5A4532582385DD6A009B09A8 /* woodtable16.jpg in Resources */,
+				5A45334F2385FAB0009B09A8 /* Storm Grey.jpg in Resources */,
+				5A45334C2385FAB0009B09A8 /* Sparkling White.jpg in Resources */,
 				5AEE5BB7235B9E4E002A79F5 /* Assets.xcassets in Resources */,
+				5A4532AB2385E004009B09A8 /* Silver Cloud.jpg in Resources */,
+				5A4533672385FDB2009B09A8 /* Helena Saddle.png in Resources */,
+				5A4532632385DD6A009B09A8 /* woodtable8.jpg in Resources */,
+				5A45334D2385FAB0009B09A8 /* White Mist.jpg in Resources */,
+				5A4532AC2385E004009B09A8 /* 2CMAfricanCanyon.jpeg in Resources */,
+				5A4533572385FAB0009B09A8 /* Midnight Mist.jpg in Resources */,
+				5A4533582385FAB0009B09A8 /* 2ArcticWhiteQZ.jpg in Resources */,
+				5A4533562385FAB0009B09A8 /* Tuscany Gold.jpg in Resources */,
+				5A45325D2385DD6A009B09A8 /* woodtable5.jpg in Resources */,
+				5A4532AF2385E004009B09A8 /* Rusty Gold.jpg in Resources */,
+				5A45325E2385DD6A009B09A8 /* woodtable12.jpg in Resources */,
+				5A4532622385DD6A009B09A8 /* woodtable2.jpg in Resources */,
+				5A4532B72385E004009B09A8 /* Yellow Butterfly.jpg in Resources */,
+				5A45325A2385DD6A009B09A8 /* woodtable9.jpg in Resources */,
+				5A4533682385FDB2009B09A8 /* Espresso.png in Resources */,
+				5A4533552385FAB0009B09A8 /* Oyster Beige.JPG in Resources */,
+				5A4532AE2385E004009B09A8 /* Silver Canyon.jpeg in Resources */,
+				5A4532D92385E20C009B09A8 /* whiteshaker10.jpeg in Resources */,
+				5A4533522385FAB0009B09A8 /* Crema Perlato.JPG in Resources */,
+				5A4532D12385E20C009B09A8 /* whiteshaker7.jpg in Resources */,
+				5A4532AA2385E004009B09A8 /* Ornamental White.jpg in Resources */,
+				5A4533462385FAB0009B09A8 /* Cinnamon.jpg in Resources */,
+				5A4532D02385E20C009B09A8 /* whiteshaker4.jpeg in Resources */,
+				5A4532C32385E110009B09A8 /* Mornington-2.jpg in Resources */,
+				5A4532D82385E20C009B09A8 /* whiteshaker3.jpeg in Resources */,
+				5A4533662385FDB2009B09A8 /* Natural Shaker.png in Resources */,
+				5A4532B22385E004009B09A8 /* 2CMBluePearl.jpg in Resources */,
+				5A4533642385FDB2009B09A8 /* Cocoa Shaker.png in Resources */,
+				5A4533182385E9D1009B09A8 /* shower10.jpg in Resources */,
+				5A4532602385DD6A009B09A8 /* woodtable1.jpg in Resources */,
+				5A4533472385FAB0009B09A8 /* Stratus White.jpg in Resources */,
+				5A4532552385DD6A009B09A8 /* woodtable13.jpg in Resources */,
+				5A4532D42385E20C009B09A8 /* whiteshaker5.jpg in Resources */,
+				5A4532592385DD6A009B09A8 /* woodtable15.jpg in Resources */,
+				5A4533142385E9D1009B09A8 /* shower12.jpg in Resources */,
+				5A4533632385FDB2009B09A8 /* Grey Shaker.png in Resources */,
+				5A4533542385FAB0009B09A8 /* Bianco Swan.jpg in Resources */,
+				5A4533492385FAB0009B09A8 /* Bianco Carmel.jpg in Resources */,
+				5A4533132385E9D1009B09A8 /* shower2.jpg in Resources */,
+				5A45325F2385DD6A009B09A8 /* woodtable3.jpg in Resources */,
+				5A4533482385FAB0009B09A8 /* Charcoal Grey.jpg in Resources */,
 				5AEE5BB5235B9E4C002A79F5 /* Main.storyboard in Resources */,
+				5A45331A2385E9D1009B09A8 /* shower6.tif in Resources */,
+				5A4533502385FAB0009B09A8 /* Arlington Grey.jpg in Resources */,
+				5A4532D22385E20C009B09A8 /* whiteshaker11.jpeg in Resources */,
+				5A4533172385E9D1009B09A8 /* shower1.jpg in Resources */,
+				5A45331E2385E9D1009B09A8 /* shower11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +829,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A34C79E236A32AF00F187B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		719430D67158444BB0D64BA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wongsgallery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7588F8331CE3163CEA2C32B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wongsgallery-wongsgalleryUITests/Pods-wongsgallery-wongsgalleryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wongsgallery-wongsgalleryUITests/Pods-wongsgallery-wongsgalleryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wongsgallery-wongsgalleryUITests/Pods-wongsgallery-wongsgalleryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		976311539EC503E941746420 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wongsgalleryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1958A482EC708C0ACFA1BF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wongsgallery-wongsgalleryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7A0823AE1E94AC2AF48BE15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wongsgallery/Pods-wongsgallery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wongsgallery/Pods-wongsgallery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wongsgallery/Pods-wongsgallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AEE5BA8235B9E4C002A79F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4C904423F4CDAC00A7B3FB /* loginViewController.swift in Sources */,
+				5A8EA54923EF98BF004C54D5 /* adminviewCell.swift in Sources */,
+				5A9B2A842363764400DA8F2B /* categlistCell.swift in Sources */,
+				5A78741423AEA5A600323FC5 /* categCellView.swift in Sources */,
+				5AB0C142235D700600343388 /* itemInfo.swift in Sources */,
+				5ADD8BD523C54C980040DCA0 /* detailViewController.swift in Sources */,
+				5ACDB54D237B653F006B77FA /* dataModel.swift in Sources */,
 				5AEE5BB2235B9E4C002A79F5 /* ViewController.swift in Sources */,
+				5A9B2A8A2363C1C100DA8F2B /* itemList.swift in Sources */,
+				5A34C7A6236B776800F187B1 /* categListView.swift in Sources */,
+				5A8EA54723EF6CC8004C54D5 /* adminViewController.swift in Sources */,
+				5AEE5BDE235BA340002A79F5 /* categCell.swift in Sources */,
+				5A34C7AA236B841A00F187B1 /* collectionViewCell.swift in Sources */,
 				5AEE5BB0235B9E4C002A79F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +1027,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +1089,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -430,10 +1143,17 @@
 		};
 		5AEE5BD5235B9E4F002A79F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF77E293A851FBFB750B392F /* Pods-wongsgallery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q72U8BAZQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods",
+				);
 				INFOPLIST_FILE = wongsgallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +1168,17 @@
 		};
 		5AEE5BD6235B9E4F002A79F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D821A684B320184441629516 /* Pods-wongsgallery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q72U8BAZQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods",
+				);
 				INFOPLIST_FILE = wongsgallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,8 +1193,10 @@
 		};
 		5AEE5BD8235B9E4F002A79F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416864E206DAD48C4F2A05B2 /* Pods-wongsgalleryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q72U8BAZQ;
@@ -487,8 +1216,10 @@
 		};
 		5AEE5BD9235B9E4F002A79F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B879DEC4B89D9A9EA19AD781 /* Pods-wongsgalleryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q72U8BAZQ;
@@ -508,8 +1239,10 @@
 		};
 		5AEE5BDB235B9E4F002A79F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D1ADB428E04EBD5B6CB9CE /* Pods-wongsgallery-wongsgalleryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q72U8BAZQ;
 				INFOPLIST_FILE = wongsgalleryUITests/Info.plist;
@@ -528,8 +1261,10 @@
 		};
 		5AEE5BDC235B9E4F002A79F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C947B0C30C2763C1CC5A744 /* Pods-wongsgallery-wongsgalleryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q72U8BAZQ;
 				INFOPLIST_FILE = wongsgalleryUITests/Info.plist;

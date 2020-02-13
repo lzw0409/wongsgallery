@@ -1,0 +1,6 @@
+framework module Pods_wongsgalleryTests {
+  umbrella header "Pods-wongsgalleryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

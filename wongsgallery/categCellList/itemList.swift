@@ -6,4 +6,16 @@
 //  Copyright © 2019 Ziwei. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class itemList {
+    var image:UIImage
+    var title:String
+    
+    init(image:UIImage, title:String) {
+        self.image = image
+        self.title = title
+        
+    }
+    
+}
